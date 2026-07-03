@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI for Buildings — CCAI Summer School 2026</title>
+<meta name="description" content="Machine learning across the building stack: sense, model, optimize, operate. Invited lecture, Climate Change AI Virtual Summer School 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1b2330; --ink2:#48515e; --mut:#8b929c;
+    --acc:#c44536; --navy:#1b3b6f; --teal:#2a9d8f;
+    --line:#e6e8ec; --paper:#ffffff; --paper2:#f7f7f5;
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{ font-family:'Work Sans',system-ui,sans-serif; background:var(--paper2); color:var(--ink); line-height:1.5; }
+  .wrap{ max-width:880px; margin:0 auto; padding:64px 28px 80px; }
+  .badge{ display:inline-block; font-size:11.5px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+          color:var(--acc); border:1px solid rgba(196,69,54,.35); border-radius:999px; padding:6px 14px; background:#fff; }
+  h1{ font-family:'Playfair Display',serif; font-weight:800; font-size:clamp(38px,7vw,58px); letter-spacing:-.01em; margin:20px 0 10px; }
+  .sub{ font-family:'Playfair Display',serif; font-style:italic; font-size:clamp(17px,2.6vw,21px); color:var(--ink2); }
+  .rule{ width:64px; height:3px; background:var(--acc); margin:26px 0; border-radius:2px; }
+  .meta{ color:var(--ink2); font-size:15.5px; }
+  .meta b{ color:var(--ink); }
+  .meta .mono{ font-family:'JetBrains Mono',monospace; font-size:13.5px; color:var(--acc); }
+  .cards{ display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:40px 0 14px; }
+  @media (max-width:640px){ .cards{ grid-template-columns:1fr; } }
+  a.card{ display:block; background:#fff; border:1px solid var(--line); border-top:4px solid var(--acc); border-radius:12px;
+          padding:22px 24px; text-decoration:none; color:var(--ink); box-shadow:0 1px 6px rgba(27,35,48,.05);
+          transition:transform .12s ease, box-shadow .12s ease; }
+  a.card:hover{ transform:translateY(-2px); box-shadow:0 6px 18px rgba(27,35,48,.10); }
+  a.card.navy{ border-top-color:var(--navy); }
+  .card .k{ font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--acc); }
+  a.card.navy .k{ color:var(--navy); }
+  .card .t{ font-family:'Playfair Display',serif; font-weight:700; font-size:24px; margin:6px 0 6px; }
+  .card .d{ color:var(--ink2); font-size:14.5px; }
+  .hint{ color:var(--mut); font-size:13.5px; margin-top:6px; }
+  .hint kbd{ font-family:'JetBrains Mono',monospace; font-size:12px; background:#fff; border:1px solid var(--line);
+             border-bottom-width:2px; border-radius:5px; padding:1px 6px; color:var(--ink2); }
+  .foot{ margin-top:46px; padding-top:18px; border-top:1px solid var(--line); color:var(--mut); font-size:13.5px; }
+  .foot a{ color:var(--acc); text-decoration:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">Climate Change AI · Virtual Summer School 2026</span>
+  <h1>AI for Buildings</h1>
+  <p class="sub">Machine learning across the building stack: sense, model, optimize, operate</p>
+  <div class="rule"></div>
+  <p class="meta"><b>Nipun Batra</b> · Sustainability Lab, IIT Gandhinagar<br>
+  <span class="mono">nipun.batra@iitgn.ac.in · sustainability-lab.github.io</span><br>
+  Module: AI for Buildings &amp; Cities · Part 1</p>
+
+  <div class="cards">
+    <a class="card" href="slides.html">
+      <div class="k">Present · in browser</div>
+      <div class="t">Open the slides</div>
+      <div class="d">Self-contained HTML deck — 95 slides, figures and fonts embedded.</div>
+      <div class="hint">Navigate with <kbd>→</kbd>, fullscreen <kbd>F</kbd>, presenter view <kbd>P</kbd></div>
+    </a>
+    <a class="card navy" href="ai-for-buildings.pdf">
+      <div class="k">Read · offline</div>
+      <div class="t">Download the PDF</div>
+      <div class="d">One page per slide, with clickable DOIs for all 86 references.</div>
+      <div class="hint">≈ 13 MB</div>
+    </a>
+  </div>
+
+  <p class="foot">Invited lecture for the <a href="https://www.climatechange.ai/">Climate Change AI</a> Virtual Summer School 2026.
+  Every claim on these slides is backed by a verified reference — largely from the ACM BuildSys and e-Energy communities.</p>
+</div>
+</body>
+</html>
