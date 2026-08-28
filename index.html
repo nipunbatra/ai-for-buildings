@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI for Buildings — CCAI Summer School 2026</title>
-<meta name="description" content="Machine learning across the building stack: sense, model, optimize, operate. Invited lecture, Climate Change AI Virtual Summer School 2026.">
+<meta name="description" content="Machine learning across the building lifecycle: sense, model, decide, verify. Invited lecture, Climate Change AI Virtual Summer School 2026.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -25,15 +25,17 @@
   .meta{ color:var(--ink2); font-size:15.5px; }
   .meta b{ color:var(--ink); }
   .meta .mono{ font-family:'JetBrains Mono',monospace; font-size:13.5px; color:var(--acc); }
-  .cards{ display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:40px 0 14px; }
+  .cards{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:18px; margin:40px 0 14px; }
   @media (max-width:640px){ .cards{ grid-template-columns:1fr; } }
   a.card{ display:block; background:#fff; border:1px solid var(--line); border-top:4px solid var(--acc); border-radius:12px;
           padding:22px 24px; text-decoration:none; color:var(--ink); box-shadow:0 1px 6px rgba(27,35,48,.05);
           transition:transform .12s ease, box-shadow .12s ease; }
   a.card:hover{ transform:translateY(-2px); box-shadow:0 6px 18px rgba(27,35,48,.10); }
   a.card.navy{ border-top-color:var(--navy); }
+  a.card.teal{ border-top-color:var(--teal); }
   .card .k{ font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--acc); }
   a.card.navy .k{ color:var(--navy); }
+  a.card.teal .k{ color:var(--teal); }
   .card .t{ font-family:'Playfair Display',serif; font-weight:700; font-size:24px; margin:6px 0 6px; }
   .card .d{ color:var(--ink2); font-size:14.5px; }
   .hint{ color:var(--mut); font-size:13.5px; margin-top:6px; }
@@ -47,7 +49,7 @@
 <div class="wrap">
   <span class="badge">Climate Change AI · Virtual Summer School 2026</span>
   <h1>AI for Buildings</h1>
-  <p class="sub">Machine learning across the building stack: sense, model, optimize, operate</p>
+  <p class="sub">Machine learning across the building lifecycle: sense, model, decide, verify</p>
   <div class="rule"></div>
   <p class="meta"><b>Nipun Batra</b> · Sustainability Lab, IIT Gandhinagar<br>
   <span class="mono">nipun.batra@iitgn.ac.in · sustainability-lab.github.io</span><br>
@@ -57,7 +59,7 @@
     <a class="card" href="slides.html">
       <div class="k">Present · in browser</div>
       <div class="t">Open the slides</div>
-      <div class="d">Self-contained HTML deck — 86-page keynote, backup material, and linked references.</div>
+      <div class="d">Self-contained browser deck — 122 slides, speaker notes, and linked references.</div>
       <div class="hint">Navigate with <kbd>→</kbd>, fullscreen <kbd>F</kbd>, presenter view <kbd>P</kbd></div>
     </a>
     <a class="card navy" href="ai-for-buildings.pdf">
@@ -65,6 +67,12 @@
       <div class="t">Download the PDF</div>
       <div class="d">122 pages in all, with clickable links for 72 references.</div>
       <div class="hint">≈ 45 MB</div>
+    </a>
+    <a class="card teal" href="ai-for-buildings.pptx">
+      <div class="k">Present · in PowerPoint</div>
+      <div class="t">PowerPoint deck</div>
+      <div class="d">Faithful 122-slide deck with speaker notes, locked to the canonical PDF layout.</div>
+      <div class="hint">≈ 38 MB</div>
     </a>
   </div>
 

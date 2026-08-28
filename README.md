@@ -6,5 +6,6 @@ Invited lecture (Module: AI for Buildings & Cities, Part 1) by **Nipun Batra**, 
 
 - `slides.html` — self-contained HTML deck (Marp; fonts & figures embedded)
 - `ai-for-buildings.pdf` — one page per slide, clickable reference DOIs
+- `ai-for-buildings.pptx` — image-based PowerPoint with speaker notes, visually aligned to the canonical PDF
 
 Built artifacts only; the source deck, paper corpus, and figure pipeline live in a separate repository.
